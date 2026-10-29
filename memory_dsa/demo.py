@@ -8,6 +8,8 @@ from .catalog import public_catalog, catalog_candidates, gap_schema, roadmap_con
 from .integrated import analyze_integrated, compare_scenarios
 from .exploration import decision_study
 from .report import render_report
+from .strategy import strategy_study
+from .strategy_report import render_strategy_report
 
 
 def encode(value):
@@ -117,4 +119,7 @@ def demo(output):
             writer.writerows({k: encode(v).strip() if isinstance(v, (dict, list)) else v for k,v in row.items()} for row in records)
     (output/'assembly-examples.json').write_text(encode(study['assembly_examples']), encoding='utf-8')
     (output/'index.html').write_text(render_report(data)+'\n', encoding='utf-8')
+    strategy = strategy_study()
+    (output/'strategy.json').write_text(encode(strategy), encoding='utf-8')
+    (output/'strategy.html').write_text(render_strategy_report(strategy)+'\n', encoding='utf-8')
     return data

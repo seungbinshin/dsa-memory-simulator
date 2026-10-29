@@ -1,5 +1,18 @@
 # DRAM Decision Explorer
 
+## Product direction and evidence
+
+Open **[outputs/strategy.html](outputs/strategy.html)** locally for the Korean product-strategy view. Its integrated portfolio links the original 19 scope axes to training, prefill, decode, Physical AI, module/channel, transfer and rack analyses; three conditional engineering directions; dated public product evidence; alternatives and falsification criteria. The two detailed workload cases remain below the integrated map. `outputs/strategy.json` contains the exact source/assumption-linked data. The existing explorer links to this report.
+
+This local correction addresses a scope gap in the earlier release. Gate 2/3 were reopened as PARTIAL; see [scope correction](docs/AUDIT.md), the historical [two-case review](docs/STRATEGY_REVIEW.md), and [requirements traceability](docs/REQUIREMENTS_TRACEABILITY.md) for the current 19-axis analysis. Long-context scenarios are operating assumptions; unknown public performance is not a market gap. The Physical AI baseline is vendor-demonstrated, not independently measured here. The ordering is an engineering review order, not a market, revenue or launch-priority ranking. No unserved-market or calibrated product-performance claim is made.
+
+Start with the Korean [project guide](docs/PROJECT_GUIDE.md) for architecture, equations, execution examples and how to read the maps. The separate [internal validation playbook](docs/INTERNAL_VALIDATION_PLAYBOOK.md) provides the information fields, measurement protocols, uncertainties, acceptance/falsification criteria and exact supported input paths for all 19 axes. Unsupported model extensions are identified explicitly. Private measurements belong in an approved internal overlay outside this public repository; there is no automatic private-data loader.
+
+The [integrated portfolio review](docs/PORTFOLIO_REVIEW.md) records the corrected scope, numerical checks and remaining limits. The [actual visual review](docs/PORTFOLIO_VISUAL_REVIEW.md) links the final desktop/mobile captures and distinguishes independent static review from browser interaction checks.
+
+Editable Korean documents: [project guide DOCX](docs/DSA_프로젝트_가이드.docx) and [internal validation manual DOCX](docs/DSA_내부_검증_실행_매뉴얼.docx). Their pre-review/publication statements are retained as dated snapshots; see the [validation and publication history](docs/VALIDATION_HISTORY.md) for subsequent verified changes. These documents describe how to supply internal measurements without placing confidential inputs in this public repository.
+
+
 An offline, reproducible analytical simulator for comparing AI memory demand,
 DRAM configurations and rack constraints. It distinguishes evidence gaps from
 known resource deficits and shows how conditional model/technology scenarios
@@ -50,8 +63,10 @@ for schemas and equations.
 Catalog values retain source IDs, units, object levels and evidence kinds. Peak
 bandwidth is never silently promoted to sustained bandwidth. Explicit efficiency
 assumptions remain scenarios. Die, stack, module, channel and rack quantities must
-not be compared as interchangeable hardware. PSU capacity is input-side watts;
-rack/cooling limits are IT-side watts.
+not be compared as interchangeable hardware. The legacy API's PSU limit is
+input-side watts and its rack/cooling limits are IT-side watts. The portfolio's
+`rack_residual` separately names N+1 shelf DC output, AC input, conversion
+efficiency and cooling; a DC shelf rating is not multiplied by efficiency again.
 
 HBM5 and unverified DDR7 values remain **null**, and missing essential fields withhold
 recommendations. HBF/NAND is shown only as adjacent positioning and excluded from

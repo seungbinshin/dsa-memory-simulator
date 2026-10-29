@@ -1,5 +1,13 @@
 # Independent three-gate audit
 
+## Scope correction — 2026-10-29
+
+**Gate 2 and Gate 3 are PARTIAL for the original product-strategy purpose.** The historical PASS table below covered explicit-input calculations and their display, not evidence-backed product direction or unmet workload/market mapping. Acceptance incorrectly substituted synthetic sensitivity for future product need and public-data availability for market coverage. A conditional deficit in one configuration does not prove an unserved market. The correction is local and under review; public main is unchanged. Preserve Gate 1's actual execution evidence separately from this requirements finding.
+
+The required repair links publicly evidenced workloads, same-scope product envelopes, future operating assumptions, conditional capability targets, alternatives, falsification criteria and internal measurements. A valid conclusion may defer product development when existing solutions or missing measurements prevent a stronger recommendation. Tests or mobile layout alone cannot close these gates.
+
+## Historical scoped audit
+
 Review date: 2026-10-27 UTC. This is an explicit-input analytical decision aid,
 not a calibrated hardware simulator or confirmed product recommendation.
 
