@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+private-inputs/
+.local-audit/
+.hexaharness/artifacts/
+.hexaharness/events/
+.hexaharness/proposals/
+.hexaharness/runtime/
+.hexaharness/state/
+.hexaharness/STOP
+.hexaharness/external-action.key
+*.sqlite*
+.env*
+.hexaharness/decisions.jsonl
+.hexaharness/*.lock

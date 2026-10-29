@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "date_utc": "2026-10-27",
+  "unit_tests": {
+    "count": 44,
+    "result": "passed"
+  },
+  "readonly_source_copy": {
+    "tests": 44,
+    "result": "passed",
+    "source_unchanged": true
+  },
+  "independent_numeric_review": "passed",
+  "supplemental_oracle_groups": 7,
+  "html_json_csv_agreement": "passed",
+  "browser": "Ego Lite",
+  "viewport_checks": [
+    {
+      "width": 390,
+      "document_width": 390
+    },
+    {
+      "width": 768,
+      "document_width": 768
+    },
+    {
+      "width": 1440,
+      "document_width": 1440
+    }
+  ],
+  "interactions": [
+    "phase filter",
+    "scenario selector",
+    "candidate selector",
+    "keyboard Tab focus"
+  ],
+  "artifact_sha256": {
+    "outputs/assembly-examples.json": "7b902bffb0181666dbae543d2967e1dfc1a3dc31d1254018539259e47fd8bc75",
+    "outputs/baseline-request.json": "6f16e3f92e07512d30446f30448c339add6bf6a8da5159d3f5d0b1c171c9e264",
+    "outputs/decision-coverage.csv": "64ec39fbb333daec9402f392399d423049d74d5f10ab1cae28f43534900c494d",
+    "outputs/index.html": "92415bb80db2a44d55b8927cd6c8f9dca5686f1e80e27cf6f5fcca1fbb903cc0",
+    "outputs/integrated-request.json": "2bb1d5f34fe61763f8373baa1bd4fcb93f9859f8b37e420afee3b7d7d2c9e8ee",
+    "outputs/integrated-results.csv": "622581e3f2a9ff20a3b34d6c349da6ff24b62ed324b9c26f37b68fee69df0b50",
+    "outputs/internal-gap-schema.json": "2241f853535a49c7ad36f5bd242449fba93d2ecd0cae5d2d2d58658776cd2b8a",
+    "outputs/results.csv": "8fd83d85ede527af00e60f16422fd872e99009c4c6c66476a70bee2168d34d28",
+    "outputs/results.json": "a23c5f43fa8bc04fc0949a9e26fa3f1adf4c9dd4b786ec2292a0504dbf68f2dd",
+    "outputs/sensitivity.csv": "8daa2d52f33d6e878dac66eedc6e63329d7e79ebaf35bea17262cbecc65abb2f"
+  },
+  "screenshots": {
+    "docs/screenshots/configuration.png": "2d00317be561c8903262fafbcb75b22e76f7372bd3f639bf7922577482a445e7",
+    "docs/screenshots/coverage.png": "12c0b82e92ad1bf01850e397985c97ebebe1d55f712f7c1a9490154c2ef75b8b",
+    "docs/screenshots/desktop.png": "b7e1e5d039a728ccc0f6405d1fa6a8a43becfecc37d8c2432778501d63ad1b45",
+    "docs/screenshots/mobile-chart.png": "cffb8466fd693214670db66a07605cfa01accb3e5f78e76dbcb1d5f4e6de043e",
+    "docs/screenshots/mobile-routing.png": "f66b5d83994d5588ae94905110a10d4969849ebb76c82fff850446ac2681ef62",
+    "docs/screenshots/sensitivity.png": "82d9429e3e9d70c3f69ee07dfe63464e62aea868a4327a59886cf438236ac1a5"
+  },
+  "scope": "Conditional analytical arithmetic and actual UI behavior; no hardware calibration or empirical forecast validation."
+}

@@ -1,0 +1,1243 @@
+scenario,year,phase,kind,section,id,status,capacity_bytes,logical_bw_bytes_s,required_modules,constraints
+integrated-baseline,2026,decode,scenario_assumption,phase,synthetic-integrated,eligible,68719476736,137438953472,1,"{
+  ""channels"": {
+    ""limit"": 100,
+    ""required"": 1,
+    ""status"": ""pass""
+  },
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules"": {
+    ""limit"": 10,
+    ""required"": 1,
+    ""status"": ""pass""
+  },
+  ""rack_power"": {
+    ""limit"": 20000,
+    ""required"": 1050,
+    ""status"": ""pass""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,phase,hbm4-12h,unevaluated,68719476736,137438953472,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,phase,hbm4-16h,unevaluated,68719476736,137438953472,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,phase,hbm4e-12h,unevaluated,68719476736,137438953472,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,phase,hbm5,unevaluated,68719476736,137438953472,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,phase,lpddr6,unevaluated,68719476736,137438953472,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 35,
+    ""status"": ""unevaluated""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,phase,socamm2,unevaluated,68719476736,137438953472,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,phase,cmm-ddr5-gen2,unevaluated,68719476736,137438953472,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,phase,ddr5-rdimm,unevaluated,68719476736,137438953472,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,phase,ddr6,unevaluated,68719476736,137438953472,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,phase,ddr7,unevaluated,68719476736,137438953472,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 137438953472,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,pools,hot,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 137438953472,
+    ""required"": 77309411328,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 34359738368,
+    ""required"": 17179869184,
+    ""status"": ""pass""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,pools,warm,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 34359738368,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 68719476736,
+    ""required"": 51539607552,
+    ""status"": ""pass""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,paths,migration,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,control_data,direct,eligible,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 102400,
+    ""status"": ""pass""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+integrated-baseline,2026,decode,scenario_assumption,control_data,relay,insufficient,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 8590036992,
+    ""status"": ""fail""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,synthetic-integrated,eligible,171798691840,274877906944,2,"{
+  ""channels"": {
+    ""limit"": 100,
+    ""required"": 2,
+    ""status"": ""pass""
+  },
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules"": {
+    ""limit"": 10,
+    ""required"": 2,
+    ""status"": ""pass""
+  },
+  ""rack_power"": {
+    ""limit"": 20000,
+    ""required"": 1100,
+    ""status"": ""pass""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,hbm4-12h,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 5,
+    ""status"": ""unevaluated""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,hbm4-16h,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 4,
+    ""status"": ""unevaluated""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,hbm4e-12h,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 4,
+    ""status"": ""unevaluated""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,hbm5,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,lpddr6,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 86,
+    ""status"": ""unevaluated""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,socamm2,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,cmm-ddr5-gen2,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,ddr5-rdimm,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,ddr6,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,phase,ddr7,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,pools,hot,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 137438953472,
+    ""required"": 77309411328,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 34359738368,
+    ""required"": 17179869184,
+    ""status"": ""pass""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,pools,warm,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 34359738368,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 68719476736,
+    ""required"": 51539607552,
+    ""status"": ""pass""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,paths,migration,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,control_data,direct,eligible,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 102400,
+    ""status"": ""pass""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+model-growth,2028,decode,scenario_assumption,control_data,relay,insufficient,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 8590036992,
+    ""status"": ""fail""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,synthetic-integrated,eligible,171798691840,274877906944,1,"{
+  ""channels"": {
+    ""limit"": 100,
+    ""required"": 1,
+    ""status"": ""pass""
+  },
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules"": {
+    ""limit"": 10,
+    ""required"": 1,
+    ""status"": ""pass""
+  },
+  ""rack_power"": {
+    ""limit"": 20000,
+    ""required"": 1050,
+    ""status"": ""pass""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,hbm4-12h,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 5,
+    ""status"": ""unevaluated""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,hbm4-16h,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 4,
+    ""status"": ""unevaluated""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,hbm4e-12h,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 4,
+    ""status"": ""unevaluated""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,hbm5,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,lpddr6,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 86,
+    ""status"": ""unevaluated""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,socamm2,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,cmm-ddr5-gen2,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,ddr5-rdimm,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,ddr6,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,phase,ddr7,unevaluated,171798691840,274877906944,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 274877906944,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,pools,hot,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 137438953472,
+    ""required"": 77309411328,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 34359738368,
+    ""required"": 17179869184,
+    ""status"": ""pass""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,pools,warm,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 34359738368,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 68719476736,
+    ""required"": 51539607552,
+    ""status"": ""pass""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,paths,migration,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,control_data,direct,eligible,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 102400,
+    ""status"": ""pass""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+technology-offset,2030,decode,scenario_assumption,control_data,relay,insufficient,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 8590036992,
+    ""status"": ""fail""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+training,2026,training,synthetic_test,phase,synthetic-integrated,eligible,137438953472,549755813888,4,"{
+  ""channels"": {
+    ""limit"": 100,
+    ""required"": 4,
+    ""status"": ""pass""
+  },
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules"": {
+    ""limit"": 10,
+    ""required"": 4,
+    ""status"": ""pass""
+  },
+  ""rack_power"": {
+    ""limit"": 20000,
+    ""required"": 1200,
+    ""status"": ""pass""
+  }
+}"
+training,2026,training,synthetic_test,phase,hbm4-12h,unevaluated,137438953472,549755813888,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 4,
+    ""status"": ""unevaluated""
+  }
+}"
+training,2026,training,synthetic_test,phase,hbm4-16h,unevaluated,137438953472,549755813888,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 3,
+    ""status"": ""unevaluated""
+  }
+}"
+training,2026,training,synthetic_test,phase,hbm4e-12h,unevaluated,137438953472,549755813888,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 3,
+    ""status"": ""unevaluated""
+  }
+}"
+training,2026,training,synthetic_test,phase,hbm5,unevaluated,137438953472,549755813888,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+training,2026,training,synthetic_test,phase,lpddr6,unevaluated,137438953472,549755813888,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 69,
+    ""status"": ""unevaluated""
+  }
+}"
+training,2026,training,synthetic_test,phase,socamm2,unevaluated,137438953472,549755813888,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+training,2026,training,synthetic_test,phase,cmm-ddr5-gen2,unevaluated,137438953472,549755813888,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+training,2026,training,synthetic_test,phase,ddr5-rdimm,unevaluated,137438953472,549755813888,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+training,2026,training,synthetic_test,phase,ddr6,unevaluated,137438953472,549755813888,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+training,2026,training,synthetic_test,phase,ddr7,unevaluated,137438953472,549755813888,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 549755813888,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+training,2026,training,synthetic_test,pools,hot,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 137438953472,
+    ""required"": 77309411328,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 34359738368,
+    ""required"": 17179869184,
+    ""status"": ""pass""
+  }
+}"
+training,2026,training,synthetic_test,pools,warm,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 34359738368,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 68719476736,
+    ""required"": 51539607552,
+    ""status"": ""pass""
+  }
+}"
+training,2026,training,synthetic_test,paths,migration,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  }
+}"
+training,2026,training,synthetic_test,control_data,direct,eligible,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 102400,
+    ""status"": ""pass""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+training,2026,training,synthetic_test,control_data,relay,insufficient,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 8590036992,
+    ""status"": ""fail""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,synthetic-integrated,insufficient,68719476736,17592186045440.0,129,"{
+  ""channels"": {
+    ""limit"": 100,
+    ""required"": 129,
+    ""status"": ""fail""
+  },
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules"": {
+    ""limit"": 10,
+    ""required"": 129,
+    ""status"": ""fail""
+  },
+  ""rack_power"": {
+    ""limit"": 20000,
+    ""required"": 7450,
+    ""status"": ""pass""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,hbm4-12h,unevaluated,68719476736,17592186045440.0,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,hbm4-16h,unevaluated,68719476736,17592186045440.0,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,hbm4e-12h,unevaluated,68719476736,17592186045440.0,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,hbm5,unevaluated,68719476736,17592186045440.0,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,lpddr6,unevaluated,68719476736,17592186045440.0,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 35,
+    ""status"": ""unevaluated""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,socamm2,unevaluated,68719476736,17592186045440.0,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,cmm-ddr5-gen2,unevaluated,68719476736,17592186045440.0,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,ddr5-rdimm,unevaluated,68719476736,17592186045440.0,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,ddr6,unevaluated,68719476736,17592186045440.0,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+prefill,2026,prefill,synthetic_test,phase,ddr7,unevaluated,68719476736,17592186045440.0,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 17592186045440.0,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+prefill,2026,prefill,synthetic_test,pools,hot,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 137438953472,
+    ""required"": 77309411328,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 34359738368,
+    ""required"": 17179869184,
+    ""status"": ""pass""
+  }
+}"
+prefill,2026,prefill,synthetic_test,pools,warm,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 34359738368,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 68719476736,
+    ""required"": 51539607552,
+    ""status"": ""pass""
+  }
+}"
+prefill,2026,prefill,synthetic_test,paths,migration,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  }
+}"
+prefill,2026,prefill,synthetic_test,control_data,direct,eligible,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 102400,
+    ""status"": ""pass""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+prefill,2026,prefill,synthetic_test,control_data,relay,insufficient,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 8590036992,
+    ""status"": ""fail""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,synthetic-integrated,eligible,53687091200,251658240,1,"{
+  ""channels"": {
+    ""limit"": 100,
+    ""required"": 1,
+    ""status"": ""pass""
+  },
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules"": {
+    ""limit"": 10,
+    ""required"": 1,
+    ""status"": ""pass""
+  },
+  ""rack_power"": {
+    ""limit"": 20000,
+    ""required"": 1050,
+    ""status"": ""pass""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,hbm4-12h,unevaluated,53687091200,251658240,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,hbm4-16h,unevaluated,53687091200,251658240,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,hbm4e-12h,unevaluated,53687091200,251658240,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 2,
+    ""status"": ""unevaluated""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,hbm5,unevaluated,53687091200,251658240,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,lpddr6,unevaluated,53687091200,251658240,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 27,
+    ""status"": ""unevaluated""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,socamm2,unevaluated,53687091200,251658240,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,cmm-ddr5-gen2,unevaluated,53687091200,251658240,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,ddr5-rdimm,unevaluated,53687091200,251658240,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": 1,
+    ""status"": ""unevaluated""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,ddr6,unevaluated,53687091200,251658240,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,phase,ddr7,unevaluated,53687091200,251658240,,"{
+  ""fabric"": {
+    ""limit"": 100000000000000.0,
+    ""required"": 251658240,
+    ""status"": ""pass""
+  },
+  ""modules_lower_bound"": {
+    ""limit"": null,
+    ""required"": null,
+    ""status"": ""unevaluated""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,pools,hot,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 137438953472,
+    ""required"": 77309411328,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 34359738368,
+    ""required"": 17179869184,
+    ""status"": ""pass""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,pools,warm,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 34359738368,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""capacity"": {
+    ""limit"": 68719476736,
+    ""required"": 51539607552,
+    ""status"": ""pass""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,paths,migration,eligible,,,,"{
+  ""bandwidth"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,control_data,direct,eligible,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 102400,
+    ""status"": ""pass""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"
+physical_ai,2026,physical_ai,synthetic_test,control_data,relay,insufficient,,,,"{
+  ""control_link"": {
+    ""limit"": 1048576,
+    ""required"": 8590036992,
+    ""status"": ""fail""
+  },
+  ""data_link"": {
+    ""limit"": 10737418240,
+    ""required"": 8589934592,
+    ""status"": ""pass""
+  },
+  ""metadata_capacity"": {
+    ""limit"": 134217728,
+    ""required"": 104857600,
+    ""status"": ""pass""
+  }
+}"

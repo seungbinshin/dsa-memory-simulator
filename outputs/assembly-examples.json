@@ -1,0 +1,119 @@
+[
+  {
+    "assumptions": [
+      "Declared scenario rate x total assembly payload width / 8; no public pin-rate substitution",
+      "Component count is an assembly scenario, not a validated package or supported board",
+      "Sustained BW exists only with explicit efficiency; efficiency is not a measurement",
+      "Gross capacity is preserved; usable capacity is unknown unless explicitly supplied",
+      "I/O width does not imply host channels; channels stay unknown unless explicitly supplied",
+      "All capacity/BW sums ignore controller, routing, thermal and packaging limitations"
+    ],
+    "candidate": {
+      "capacity_bytes": 16000000000,
+      "channels_per_module": null,
+      "component_object_level": "die",
+      "family": "LPDDR6",
+      "id": "synthetic-eight-die-lpddr6",
+      "max_modules": null,
+      "object_level": "assembly",
+      "power_w": null,
+      "provenance": "scenario_assumption",
+      "sustained_bw_bytes_s": 72000000000.0,
+      "units_per_object": 8
+    },
+    "channels": null,
+    "component_id": "lpddr6",
+    "component_object_level": "die",
+    "conditional_sustained_bw_bytes_s": 72000000000.0,
+    "gross_capacity_bytes": 16000000000,
+    "id": "synthetic-eight-die-lpddr6",
+    "input_assumptions": {
+      "bus_width_bits": 64,
+      "pin_rate_gbit_s": 12,
+      "sustained_efficiency": 0.75
+    },
+    "kind": "scenario_assumption",
+    "object_level": "assembly",
+    "peak_bw_bytes_s": 96000000000.0,
+    "unit_count": 8,
+    "usable_capacity_bytes": null
+  },
+  {
+    "assumptions": [
+      "Sum of published component theoretical peaks under an explicit ideal independent-interface assumption",
+      "Component count is an assembly scenario, not a validated package or supported board",
+      "Sustained BW exists only with explicit efficiency; efficiency is not a measurement",
+      "Gross capacity is preserved; usable capacity is unknown unless explicitly supplied",
+      "I/O width does not imply host channels; channels stay unknown unless explicitly supplied",
+      "All capacity/BW sums ignore controller, routing, thermal and packaging limitations"
+    ],
+    "candidate": {
+      "capacity_bytes": 144000000000,
+      "channels_per_module": null,
+      "component_object_level": "stack",
+      "family": "HBM",
+      "id": "conditional-four-hbm4-stacks",
+      "max_modules": null,
+      "object_level": "assembly",
+      "power_w": null,
+      "provenance": "scenario_assumption",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 4
+    },
+    "channels": null,
+    "component_id": "hbm4-12h",
+    "component_object_level": "stack",
+    "conditional_sustained_bw_bytes_s": null,
+    "gross_capacity_bytes": 144000000000,
+    "id": "conditional-four-hbm4-stacks",
+    "input_assumptions": {
+      "bus_width_bits": null,
+      "pin_rate_gbit_s": null,
+      "sustained_efficiency": null
+    },
+    "kind": "scenario_assumption",
+    "object_level": "assembly",
+    "peak_bw_bytes_s": 11980800000000,
+    "unit_count": 4,
+    "usable_capacity_bytes": null
+  },
+  {
+    "assumptions": [
+      "Sum of published component theoretical peaks under an explicit ideal independent-interface assumption",
+      "Component count is an assembly scenario, not a validated package or supported board",
+      "Sustained BW exists only with explicit efficiency; efficiency is not a measurement",
+      "Gross capacity is preserved; usable capacity is unknown unless explicitly supplied",
+      "I/O width does not imply host channels; channels stay unknown unless explicitly supplied",
+      "All capacity/BW sums ignore controller, routing, thermal and packaging limitations"
+    ],
+    "candidate": {
+      "capacity_bytes": null,
+      "channels_per_module": null,
+      "component_object_level": "stack",
+      "family": "HBM",
+      "id": "unknown-four-hbm5-stacks",
+      "max_modules": null,
+      "object_level": "assembly",
+      "power_w": null,
+      "provenance": "scenario_assumption",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 4
+    },
+    "channels": null,
+    "component_id": "hbm5",
+    "component_object_level": "stack",
+    "conditional_sustained_bw_bytes_s": null,
+    "gross_capacity_bytes": null,
+    "id": "unknown-four-hbm5-stacks",
+    "input_assumptions": {
+      "bus_width_bits": null,
+      "pin_rate_gbit_s": null,
+      "sustained_efficiency": null
+    },
+    "kind": "scenario_assumption",
+    "object_level": "assembly",
+    "peak_bw_bytes_s": null,
+    "unit_count": 4,
+    "usable_capacity_bytes": null
+  }
+]

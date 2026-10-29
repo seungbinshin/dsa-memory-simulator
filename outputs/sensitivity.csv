@@ -1,0 +1,5 @@
+bw_ratio,candidate_id,capacity_bytes,capacity_ratio,fabric_status,id,label,logical_bw_bytes_s,required_modules
+1.0,synthetic-balanced,68719476736,1.0,pass,baseline,Synthetic baseline,137438953472,1
+2.0,synthetic-balanced,171798691840,2.5,pass,model-growth,Larger resident and active weights,274877906944,2
+0.5,synthetic-balanced,34359738368.0,0.5,pass,efficiency-offset,Weight and KV precision reduction,68719476736.0,1
+2.0,synthetic-balanced,171798691840,2.5,fail,fabric-limited,Technology BW cannot fix fabric ceiling,274877906944,1

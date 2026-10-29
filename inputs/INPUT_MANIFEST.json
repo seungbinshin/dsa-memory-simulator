@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scope": "public source notes and primary model-trend evidence only; private handoff and original report excluded",
+  "files": {
+    "inputs/PUBLIC_SOURCE_NOTES.md": "74c0808fb0a8d37eb1b38e863593fd9ca34b6c40a6b824463d3e04591711c056",
+    "inputs/MODEL_TRENDS.md": "367f4b5da44a5da62c3834a3c25f79d3f4f65fe0946c0b1a01d2af5807905435"
+  }
+}

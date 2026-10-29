@@ -1,0 +1,334 @@
+axis,calculation,code_paths,id,input_paths,limitations,result_paths,status
+memory_family,Conditional object sizing retains stack unit basis,"[
+  ""memory_dsa/catalog.py:public_catalog"",
+  ""memory_dsa/api.py:_analyze""
+]",hbm4-12h,"[
+  ""candidates[].capacity_bytes"",
+  ""candidates[].sustained_bw_bytes_s"",
+  ""candidates[].power_w"",
+  ""candidates[].channels_per_module""
+]","[
+  ""Unknown fields: sustained_bw_bytes_s, power_w, channels"",
+  ""Missing evidence is not evidence of poor performance""
+]","[
+  ""catalog[]"",
+  ""integrated_scenarios[].result.candidates[]""
+]",partial_public_evidence
+memory_family,Conditional object sizing retains stack unit basis,"[
+  ""memory_dsa/catalog.py:public_catalog"",
+  ""memory_dsa/api.py:_analyze""
+]",hbm4-16h,"[
+  ""candidates[].capacity_bytes"",
+  ""candidates[].sustained_bw_bytes_s"",
+  ""candidates[].power_w"",
+  ""candidates[].channels_per_module""
+]","[
+  ""Unknown fields: sustained_bw_bytes_s, power_w, channels"",
+  ""Missing evidence is not evidence of poor performance""
+]","[
+  ""catalog[]"",
+  ""integrated_scenarios[].result.candidates[]""
+]",partial_public_evidence
+memory_family,Conditional object sizing retains stack unit basis,"[
+  ""memory_dsa/catalog.py:public_catalog"",
+  ""memory_dsa/api.py:_analyze""
+]",hbm4e-12h,"[
+  ""candidates[].capacity_bytes"",
+  ""candidates[].sustained_bw_bytes_s"",
+  ""candidates[].power_w"",
+  ""candidates[].channels_per_module""
+]","[
+  ""Unknown fields: sustained_bw_bytes_s, power_w, channels"",
+  ""Missing evidence is not evidence of poor performance""
+]","[
+  ""catalog[]"",
+  ""integrated_scenarios[].result.candidates[]""
+]",partial_public_evidence
+memory_family,Conditional object sizing retains stack unit basis,"[
+  ""memory_dsa/catalog.py:public_catalog"",
+  ""memory_dsa/api.py:_analyze""
+]",hbm5,"[
+  ""candidates[].capacity_bytes"",
+  ""candidates[].sustained_bw_bytes_s"",
+  ""candidates[].power_w"",
+  ""candidates[].channels_per_module""
+]","[
+  ""Unknown fields: capacity_bytes, sustained_bw_bytes_s, power_w, channels"",
+  ""Missing evidence is not evidence of poor performance""
+]","[
+  ""catalog[]"",
+  ""integrated_scenarios[].result.candidates[]""
+]",unknown
+memory_family,Conditional object sizing retains die unit basis,"[
+  ""memory_dsa/catalog.py:public_catalog"",
+  ""memory_dsa/api.py:_analyze""
+]",lpddr6,"[
+  ""candidates[].capacity_bytes"",
+  ""candidates[].sustained_bw_bytes_s"",
+  ""candidates[].power_w"",
+  ""candidates[].channels_per_module""
+]","[
+  ""Unknown fields: sustained_bw_bytes_s, power_w, channels"",
+  ""Missing evidence is not evidence of poor performance""
+]","[
+  ""catalog[]"",
+  ""integrated_scenarios[].result.candidates[]""
+]",partial_public_evidence
+memory_family,Conditional object sizing retains module unit basis,"[
+  ""memory_dsa/catalog.py:public_catalog"",
+  ""memory_dsa/api.py:_analyze""
+]",socamm2,"[
+  ""candidates[].capacity_bytes"",
+  ""candidates[].sustained_bw_bytes_s"",
+  ""candidates[].power_w"",
+  ""candidates[].channels_per_module""
+]","[
+  ""Unknown fields: sustained_bw_bytes_s, power_w, channels"",
+  ""Missing evidence is not evidence of poor performance""
+]","[
+  ""catalog[]"",
+  ""integrated_scenarios[].result.candidates[]""
+]",partial_public_evidence
+memory_family,Conditional object sizing retains module unit basis,"[
+  ""memory_dsa/catalog.py:public_catalog"",
+  ""memory_dsa/api.py:_analyze""
+]",cmm-ddr5-gen2,"[
+  ""candidates[].capacity_bytes"",
+  ""candidates[].sustained_bw_bytes_s"",
+  ""candidates[].power_w"",
+  ""candidates[].channels_per_module""
+]","[
+  ""Unknown fields: sustained_bw_bytes_s, power_w, channels"",
+  ""Missing evidence is not evidence of poor performance""
+]","[
+  ""catalog[]"",
+  ""integrated_scenarios[].result.candidates[]""
+]",partial_public_evidence
+memory_family,Conditional object sizing retains module unit basis,"[
+  ""memory_dsa/catalog.py:public_catalog"",
+  ""memory_dsa/api.py:_analyze""
+]",ddr5-rdimm,"[
+  ""candidates[].capacity_bytes"",
+  ""candidates[].sustained_bw_bytes_s"",
+  ""candidates[].power_w"",
+  ""candidates[].channels_per_module""
+]","[
+  ""Unknown fields: sustained_bw_bytes_s, power_w, channels"",
+  ""Missing evidence is not evidence of poor performance""
+]","[
+  ""catalog[]"",
+  ""integrated_scenarios[].result.candidates[]""
+]",partial_public_evidence
+memory_family,Conditional object sizing retains module unit basis,"[
+  ""memory_dsa/catalog.py:public_catalog"",
+  ""memory_dsa/api.py:_analyze""
+]",ddr6,"[
+  ""candidates[].capacity_bytes"",
+  ""candidates[].sustained_bw_bytes_s"",
+  ""candidates[].power_w"",
+  ""candidates[].channels_per_module""
+]","[
+  ""Unknown fields: capacity_bytes, sustained_bw_bytes_s, power_w, channels"",
+  ""Missing evidence is not evidence of poor performance""
+]","[
+  ""catalog[]"",
+  ""integrated_scenarios[].result.candidates[]""
+]",unknown
+memory_family,Conditional object sizing retains module unit basis,"[
+  ""memory_dsa/catalog.py:public_catalog"",
+  ""memory_dsa/api.py:_analyze""
+]",ddr7,"[
+  ""candidates[].capacity_bytes"",
+  ""candidates[].sustained_bw_bytes_s"",
+  ""candidates[].power_w"",
+  ""candidates[].channels_per_module""
+]","[
+  ""Unknown fields: capacity_bytes, sustained_bw_bytes_s, power_w, channels"",
+  ""Missing evidence is not evidence of poor performance""
+]","[
+  ""catalog[]"",
+  ""integrated_scenarios[].result.candidates[]""
+]",unknown
+phase,Resident weights + KV + explicit resident state; full logical KV scan and active-weight bytes per generated token,"[
+  ""memory_dsa/integrated.py:analyze_integrated"",
+  ""memory_dsa/integrated.py""
+]",decode,"[
+  ""workload.resident_weight_bytes"",
+  ""workload.active_weight_bytes_per_token"",
+  ""workload.context_tokens"",
+  ""phase_budget.resident_state_bytes""
+]","[
+  ""No measured bus amplification or latency""
+]","[
+  ""integrated_scenarios[].result"",
+  ""decision_study.scenarios[].result""
+]",conditional_arithmetic
+phase,"Input tokens/s x new-KV bytes/token x (1-prefix reuse), active-weight traffic and explicit other traffic","[
+  ""memory_dsa/integrated.py:analyze_integrated"",
+  ""memory_dsa/integrated.py""
+]",prefill,"[
+  ""workload.input_tokens_per_s"",
+  ""workload.prefix_reuse_ratio"",
+  ""phase_budget.prefill_other_bw_bytes_s""
+]","[
+  ""Prefix reuse changes prefill writes only; cannot infer decode capacity sharing""
+]","[
+  ""integrated_scenarios[].result"",
+  ""decision_study.scenarios[].result""
+]",conditional_arithmetic
+phase,Weights + activations + optimizer capacity; bytes/step x steps/s traffic,"[
+  ""memory_dsa/integrated.py:analyze_integrated"",
+  ""memory_dsa/integrated.py""
+]",training,"[
+  ""workload.resident_weight_bytes"",
+  ""workload.activation_bytes"",
+  ""workload.optimizer_bytes"",
+  ""phase_budget.training_bytes_per_step"",
+  ""phase_budget.training_steps_per_s""
+]","[
+  ""No automatic optimizer, gradient, collective or checkpoint traffic inference""
+]","[
+  ""integrated_scenarios[].result"",
+  ""decision_study.scenarios[].result""
+]",conditional_arithmetic
+phase,Resident weights/states/intermediates; frame bytes x frames/s plus explicit other traffic,"[
+  ""memory_dsa/integrated.py:analyze_integrated"",
+  ""memory_dsa/integrated.py""
+]",physical_ai,"[
+  ""phase_budget.resident_state_bytes"",
+  ""phase_budget.intermediate_state_bytes"",
+  ""phase_budget.frame_bytes"",
+  ""phase_budget.frames_per_s"",
+  ""phase_budget.physical_other_bw_bytes_s""
+]","[
+  ""Sensor, temporal reuse and control-loop scheduling must be budgeted by caller""
+]","[
+  ""integrated_scenarios[].result"",
+  ""decision_study.scenarios[].result""
+]",conditional_arithmetic
+model_architecture,Separate all-resident expert capacity from active expert bytes/token and expert link traffic,"[
+  ""memory_dsa/api.py:_analyze"",
+  ""memory_dsa/integrated.py""
+]",dense-moe,"[
+  ""workload.resident_weight_bytes"",
+  ""workload.active_weight_bytes_per_token"",
+  ""workload.expert_fabric_bytes_per_token""
+]","[
+  ""Explicit budgets only; no model-name lookup, routing imbalance or automatic dense/MoE architecture inference""
+]","[
+  ""integrated_scenarios[].result"",
+  ""decision_study.scenarios[].result""
+]",conditional_arithmetic
+infrastructure,Object count x watts + rack base; wall power = rack power / efficiency; declared ceilings,"[
+  ""memory_dsa/api.py:_analyze"",
+  ""memory_dsa/integrated.py""
+]",rack-power-psu,"[
+  ""candidates[].power_w"",
+  ""rack.base_power_w"",
+  ""rack.power_limit_w"",
+  ""rack.psu_efficiency"",
+  ""rack.psu_capacity_w"",
+  ""rack.cooling_limit_w""
+]","[
+  ""Static budget only; no transient, temperature, PSU redundancy or dynamic throttling model""
+]","[
+  ""integrated_scenarios[].result"",
+  ""decision_study.scenarios[].result""
+]",conditional_arithmetic
+topology,Per-pool capacity/BW and declared migration paths; optional total-demand capacity coverage,"[
+  ""memory_dsa/api.py:_analyze"",
+  ""memory_dsa/integrated.py""
+]",heterogeneous-placement,"[
+  ""placement.pools"",
+  ""placement.paths"",
+  ""placement.bind_to_demand""
+]","[
+  ""No optimizer, shared-link discovery or inferred end-to-end traffic coverage""
+]","[
+  ""integrated_scenarios[].result"",
+  ""decision_study.scenarios[].result""
+]",conditional_arithmetic
+topology,"Compare direct data bypass with relay: metadata capacity, control BW, payload links","[
+  ""memory_dsa/api.py:_analyze"",
+  ""memory_dsa/integrated.py""
+]",kv-control-data,"[
+  ""kv_system.control_operations_per_s"",
+  ""kv_system.control_bytes_per_operation"",
+  ""kv_system.payload_bw_bytes_s"",
+  ""kv_system.server_metadata_capacity_bytes""
+]","[
+  ""Independent declared traffic budgets; latency and service implementation are unknown""
+]","[
+  ""integrated_scenarios[].result"",
+  ""decision_study.scenarios[].result""
+]",conditional_arithmetic
+sensitivity,"Named growth, efficiency and technology factors with capacity/BW/module/fabric deltas","[
+  ""memory_dsa/api.py:_analyze"",
+  ""memory_dsa/integrated.py""
+]",future-demand,"[
+  ""scenario.weight_multiplier"",
+  ""scenario.kv_bytes_multiplier"",
+  ""scenario.context_multiplier"",
+  ""scenario.technology_bw_multiplier""
+]","[
+  ""Conditional scenario envelope, not a dated forecast or probability distribution""
+]","[
+  ""integrated_scenarios[].result"",
+  ""decision_study.scenarios[].result""
+]",conditional_arithmetic
+model_architecture,,,mla,[],"[
+  ""MLA needs explicit latent-cache and reconstruction traffic inputs; GQA formula must not be reused""
+]",,not_implemented
+scope,,,hbf-nand,[],"[
+  ""Positioning only; excluded from sizing, ranking and internal input requests""
+]",,excluded
+internal_gap,Caller supplies a documented value under the stated measurement conditions,,gap-sustained_bw_bytes_s,"[
+  ""candidates[].sustained_bw_bytes_s""
+]","[
+  ""Read/write mix, access size, queue depth, populated channels, concurrent hosts"",
+  ""No private input collected; default remains null""
+]",,input_supported
+internal_gap,Caller supplies a documented value under the stated measurement conditions,,gap-power_w,"[
+  ""candidates[].power_w""
+]","[
+  ""Idle/active/peak/transient, voltage and clock"",
+  ""No private input collected; default remains null""
+]",,input_supported
+internal_gap,Caller supplies a documented value under the stated measurement conditions,,gap-p99_latency_ns,"[
+  ""candidates[].p99_latency_ns""
+]","[
+  ""Contention, sample count, access pattern; retain p50/p999 separately"",
+  ""No private input collected; default remains null""
+]",,input_supported
+internal_gap,,,gap-thermal_throttle_ratio,[],"[
+  ""Coolant inlet, junction temperature, duration and flow"",
+  ""No private input collected; default remains null""
+]",,not_implemented
+internal_gap,Caller supplies a documented value under the stated measurement conditions,,gap-fabric_bw_bytes_s,"[
+  ""rack.fabric_bw_bytes_s""
+]","[
+  ""Direction, bisection, protocol overhead and shared topology"",
+  ""No private input collected; default remains null""
+]",,input_supported
+internal_gap,Caller supplies a documented value under the stated measurement conditions,,gap-psu_efficiency,"[
+  ""rack.psu_efficiency""
+]","[
+  ""Load, redundancy and transient reserve"",
+  ""No private input collected; default remains null""
+]",,input_supported
+internal_gap,,,gap-context_distribution,[],"[
+  ""p50/p95/p99 and workload class"",
+  ""No private input collected; default remains null""
+]",,not_implemented
+internal_gap,Caller supplies a documented value under the stated measurement conditions,,gap-prefix_reuse_ratio,"[
+  ""workload.prefix_reuse_ratio""
+]","[
+  ""Hot-set distribution, lifetime, KV policy"",
+  ""No private input collected; default remains null""
+]",,input_supported
+internal_gap,Caller supplies a documented value under the stated measurement conditions,,gap-metadata_bytes_per_request,"[
+  ""workload.metadata_bytes_per_request""
+]","[
+  ""Control metadata separate from KV payload"",
+  ""No private input collected; default remains null""
+]",,input_supported

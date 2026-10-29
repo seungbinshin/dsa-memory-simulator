@@ -1,0 +1,104 @@
+{
+  "fields": [
+    {
+      "conditions": "Read/write mix, access size, queue depth, populated channels, concurrent hosts",
+      "implementation_status": "input_supported",
+      "input_path": "candidates[].sustained_bw_bytes_s",
+      "name": "sustained_bw_bytes_s",
+      "scope": "DRAM",
+      "source": null,
+      "unit": "B/s",
+      "value": null
+    },
+    {
+      "conditions": "Idle/active/peak/transient, voltage and clock",
+      "implementation_status": "input_supported",
+      "input_path": "candidates[].power_w",
+      "name": "power_w",
+      "scope": "DRAM",
+      "source": null,
+      "unit": "W",
+      "value": null
+    },
+    {
+      "conditions": "Contention, sample count, access pattern; retain p50/p999 separately",
+      "implementation_status": "input_supported",
+      "input_path": "candidates[].p99_latency_ns",
+      "name": "p99_latency_ns",
+      "scope": "DRAM",
+      "source": null,
+      "unit": "ns",
+      "value": null
+    },
+    {
+      "conditions": "Coolant inlet, junction temperature, duration and flow",
+      "implementation_status": "not_implemented",
+      "input_path": null,
+      "name": "thermal_throttle_ratio",
+      "scope": "rack",
+      "source": null,
+      "unit": "ratio",
+      "value": null
+    },
+    {
+      "conditions": "Direction, bisection, protocol overhead and shared topology",
+      "implementation_status": "input_supported",
+      "input_path": "rack.fabric_bw_bytes_s",
+      "name": "fabric_bw_bytes_s",
+      "scope": "rack",
+      "source": null,
+      "unit": "B/s",
+      "value": null
+    },
+    {
+      "conditions": "Load, redundancy and transient reserve",
+      "implementation_status": "input_supported",
+      "input_path": "rack.psu_efficiency",
+      "name": "psu_efficiency",
+      "scope": "rack",
+      "source": null,
+      "unit": "ratio",
+      "value": null
+    },
+    {
+      "conditions": "p50/p95/p99 and workload class",
+      "implementation_status": "not_implemented",
+      "input_path": null,
+      "name": "context_distribution",
+      "scope": "workload",
+      "source": null,
+      "unit": "tokens",
+      "value": null
+    },
+    {
+      "conditions": "Hot-set distribution, lifetime, KV policy",
+      "implementation_status": "input_supported",
+      "input_path": "workload.prefix_reuse_ratio",
+      "name": "prefix_reuse_ratio",
+      "scope": "workload",
+      "source": null,
+      "unit": "ratio",
+      "value": null
+    },
+    {
+      "conditions": "Control metadata separate from KV payload",
+      "implementation_status": "input_supported",
+      "input_path": "workload.metadata_bytes_per_request",
+      "name": "metadata_bytes_per_request",
+      "scope": "workload",
+      "source": null,
+      "unit": "B/request",
+      "value": null
+    }
+  ],
+  "instruction": "Keep overrides in a separate local file; explicitly construct API candidates. Never mutate public catalog or infer missing values. No automatic ingestion or private-data lookup.",
+  "override_contract": {
+    "candidate_id": null,
+    "measurement_conditions": null,
+    "provenance": "local_override",
+    "source_reference": null,
+    "values": {}
+  },
+  "schema_version": 1,
+  "scope": "DRAM/rack/workload only; no internal data collected"
+}

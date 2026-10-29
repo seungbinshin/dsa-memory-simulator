@@ -1,0 +1,56 @@
+scenario,year,kind,kv_total_bytes,logical_decode_kv_bw_bytes_s,id,status,required_modules,rack_power_w,reasons
+baseline,2026,synthetic_test,2748779069440,54975581388800,synthetic-hbm,eligible,55,3750,KV-only homogeneous sizing; latency/thermal/placement not validated
+baseline,2026,synthetic_test,2748779069440,54975581388800,hbm4-12h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+baseline,2026,synthetic_test,2748779069440,54975581388800,hbm4-16h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+baseline,2026,synthetic_test,2748779069440,54975581388800,hbm4e-12h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+baseline,2026,synthetic_test,2748779069440,54975581388800,hbm5,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+baseline,2026,synthetic_test,2748779069440,54975581388800,lpddr6,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+baseline,2026,synthetic_test,2748779069440,54975581388800,socamm2,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+baseline,2026,synthetic_test,2748779069440,54975581388800,cmm-ddr5-gen2,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+baseline,2026,synthetic_test,2748779069440,54975581388800,ddr5-rdimm,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+baseline,2026,synthetic_test,2748779069440,54975581388800,ddr6,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+baseline,2026,synthetic_test,2748779069440,54975581388800,ddr7,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,synthetic-hbm,eligible,69,4450,KV-only homogeneous sizing; latency/thermal/placement not validated
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,hbm4-12h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,hbm4-16h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,hbm4e-12h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,hbm5,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,lpddr6,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,socamm2,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,cmm-ddr5-gen2,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,ddr5-rdimm,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,ddr6,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+conservative,2027,scenario_assumption,3435973836800.0,68719476736000.0,ddr7,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,synthetic-hbm,insufficient,367,19350,Violated: modules; Violated: fabric; Violated: channels; KV-only homogeneous sizing; latency/thermal/placement not validated
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,hbm4-12h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,hbm4-16h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,hbm4e-12h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,hbm5,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,lpddr6,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,socamm2,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,cmm-ddr5-gen2,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,ddr5-rdimm,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,ddr6,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+base,2028,scenario_assumption,27487790694400.0,549755813888000.0,ddr7,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,synthetic-hbm,insufficient,1320,80200.0,Violated: modules; Violated: fabric; Violated: rack_power; Violated: channels; KV-only homogeneous sizing; latency/thermal/placement not validated
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,hbm4-12h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,hbm4-16h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,hbm4e-12h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,hbm5,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,lpddr6,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,socamm2,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,cmm-ddr5-gen2,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,ddr5-rdimm,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,ddr6,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+accelerated,2030,scenario_assumption,131941395333120.0,2638827906662400.0,ddr7,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,synthetic-hbm,eligible,20,2000,KV-only homogeneous sizing; latency/thermal/placement not validated
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,hbm4-12h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,hbm4-16h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,hbm4e-12h,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,hbm5,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,lpddr6,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,socamm2,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,cmm-ddr5-gen2,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,ddr5-rdimm,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,ddr6,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported
+efficiency-offset,2030,scenario_assumption,1374389534720.0,27487790694400.0,ddr7,unevaluated,,,Essential capacity/sustained BW missing or phase sizing unsupported

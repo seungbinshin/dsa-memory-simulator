@@ -1,0 +1,160 @@
+{
+  "candidates": [
+    {
+      "capacity_bytes": 68719476736,
+      "channels_per_module": 1,
+      "family": "HBM",
+      "id": "synthetic-hbm",
+      "max_modules": 100,
+      "power_w": 50,
+      "provenance": "synthetic_test",
+      "sustained_bw_bytes_s": 1000000000000
+    },
+    {
+      "capacity_bytes": 36000000000,
+      "channels_per_module": null,
+      "component_object_level": "stack",
+      "family": "HBM",
+      "id": "hbm4-12h",
+      "max_modules": null,
+      "object_level": "stack",
+      "power_w": null,
+      "provenance": "public_catalog",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 1
+    },
+    {
+      "capacity_bytes": 48000000000,
+      "channels_per_module": null,
+      "component_object_level": "stack",
+      "family": "HBM",
+      "id": "hbm4-16h",
+      "max_modules": null,
+      "object_level": "stack",
+      "power_w": null,
+      "provenance": "public_catalog",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 1
+    },
+    {
+      "capacity_bytes": 48000000000,
+      "channels_per_module": null,
+      "component_object_level": "stack",
+      "family": "HBM",
+      "id": "hbm4e-12h",
+      "max_modules": null,
+      "object_level": "stack",
+      "power_w": null,
+      "provenance": "public_catalog",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 1
+    },
+    {
+      "capacity_bytes": null,
+      "channels_per_module": null,
+      "component_object_level": "stack",
+      "family": "HBM",
+      "id": "hbm5",
+      "max_modules": null,
+      "object_level": "stack",
+      "power_w": null,
+      "provenance": "public_catalog",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 1
+    },
+    {
+      "capacity_bytes": 2000000000,
+      "channels_per_module": null,
+      "component_object_level": "die",
+      "family": "LPDDR6",
+      "id": "lpddr6",
+      "max_modules": null,
+      "object_level": "die",
+      "power_w": null,
+      "provenance": "public_catalog",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 1
+    },
+    {
+      "capacity_bytes": 192000000000,
+      "channels_per_module": null,
+      "component_object_level": "module",
+      "family": "SOCAMM2",
+      "id": "socamm2",
+      "max_modules": null,
+      "object_level": "module",
+      "power_w": null,
+      "provenance": "public_catalog",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 1
+    },
+    {
+      "capacity_bytes": 256000000000,
+      "channels_per_module": null,
+      "component_object_level": "module",
+      "family": "CXL",
+      "id": "cmm-ddr5-gen2",
+      "max_modules": null,
+      "object_level": "module",
+      "power_w": null,
+      "provenance": "public_catalog",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 1
+    },
+    {
+      "capacity_bytes": 137438953472,
+      "channels_per_module": null,
+      "component_object_level": "module",
+      "family": "DDR5",
+      "id": "ddr5-rdimm",
+      "max_modules": null,
+      "object_level": "module",
+      "power_w": null,
+      "provenance": "public_catalog",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 1
+    },
+    {
+      "capacity_bytes": null,
+      "channels_per_module": null,
+      "component_object_level": "module",
+      "family": "DDR6",
+      "id": "ddr6",
+      "max_modules": null,
+      "object_level": "module",
+      "power_w": null,
+      "provenance": "public_catalog",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 1
+    },
+    {
+      "capacity_bytes": null,
+      "channels_per_module": null,
+      "component_object_level": "module",
+      "family": "DDR7",
+      "id": "ddr7",
+      "max_modules": null,
+      "object_level": "module",
+      "power_w": null,
+      "provenance": "public_catalog",
+      "sustained_bw_bytes_s": null,
+      "units_per_object": 1
+    }
+  ],
+  "rack": {
+    "base_power_w": 1000,
+    "fabric_bw_bytes_s": 100000000000000.0,
+    "max_channels": 100,
+    "power_limit_w": 20000
+  },
+  "scenario": {},
+  "workload": {
+    "bytes_per_element": 2,
+    "concurrency": 64,
+    "context_tokens": 131072,
+    "head_dim": 128,
+    "kv_heads": 8,
+    "layers": 80,
+    "output_tokens_per_s_per_request": 20
+  }
+}
